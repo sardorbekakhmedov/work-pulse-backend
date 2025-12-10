@@ -1,0 +1,96 @@
+#############################
+# .NET Build Artefacts
+#############################
+bin/
+obj/
+out/
+generated/
+_TestResults/
+*.user
+*.rsuser
+*.suo
+*.cache
+*.pdb
+*.mdb
+
+# ASP.NET logs, temp, lock
+logs/
+*.log
+*.tlog
+*.vshost.*
+*.pid
+*.tmp
+
+#############################
+# Rider / JetBrains
+#############################
+.idea/
+*.sln.iml
+.idea_modules/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+
+#############################
+# Visual Studio / VSCode
+#############################
+.vscode/
+.vs/
+*.dbmdl
+*.jfm
+*.ncb
+*.opendb
+.qodo
+
+#############################
+# OS files
+#############################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+#############################
+# NuGet
+#############################
+*.nupkg
+.nuget/
+
+#############################
+# Entity Framework
+#############################
+*Migrations/obj/
+__EFTempDB_*
+*.sqlite
+*.db-shm
+*.db-wal
+
+#############################
+# User-specific config
+#############################
+*.local.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+*.secret.json
+
+#############################
+# Rider Plugin Temporary
+#############################
+.idea/.idea.*
+.idea/**/shelf/
+.idea/**/httpRequests/
+
+#############################
+# Logs / Temp
+#############################
+temp/
+tmp/
+Cache/
+.cache/
+
+#############################
+# Publish
+#############################
+/publish/
+/dist/
+/artifacts/
